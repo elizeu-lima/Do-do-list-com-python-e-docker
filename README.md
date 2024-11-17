@@ -31,7 +31,6 @@ Desafio: Queríamos garantir que os botões, entradas de dados e listas de taref
 A solução: A solução foi implementar media queries no CSS, que ajustam o layout dependendo da largura da tela. Usamos regras específicas para telas de smartphones, tablets e desktops, garantindo que o design fosse ajustado de maneira suave. Para os botões, fizemos ajustes no tamanho do padding e fontes, e aumentamos o espaçamento entre os itens para evitar que ficassem "grudados".
 
 css
-Copiar código
 @media (max-width: 600px) {
     li {
         flex-direction: column;
