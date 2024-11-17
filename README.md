@@ -16,10 +16,7 @@ E foi aí que o CORS nos desafiou! 🤦‍♂️ Nosso frontend estava hospedado
 
 A solução: O Flask tem uma extensão maravilhosa chamada flask_cors que permite configurar o CORS de forma simples. Com isso, conseguimos liberar o acesso ao nosso backend a partir de qualquer origem, permitindo que o frontend consiga interagir sem problemas. 🎉
 
-python
-Copiar código
-from flask_cors import CORS
-CORS(app, resources={r"/*": {"origins": "*"}}, supports_credentials=True)
+
 Docker 🐳
 Ah, o Docker! Uma ferramenta maravilhosa que resolveu nossos problemas de "funciona na minha máquina". 🖥️🔧 Ao utilizarmos o Docker, conseguimos empacotar nossa aplicação com todas as suas dependências em um único contêiner. Isso garantiu que a aplicação rodasse da mesma forma em qualquer ambiente. Tudo o que precisamos fazer é executar um simples comando Docker e nossa aplicação estava prontinha para rodar, sem dor de cabeça com configurações ou versões incompatíveis.
 
